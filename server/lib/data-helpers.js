@@ -22,9 +22,7 @@ module.exports = function makeDataHelpers(db) {
 
     // Increment likes on a given tweet by 1
     incrementLikes: function(id, likes, callback) {
-      debugger;
       db.collection("tweets").updateOne({ _id: ObjectId(id) }, { $set: { likes: likes }}).then(result => {
-        debugger;
         callback();
       });
     }
