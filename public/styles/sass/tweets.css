@@ -35,6 +35,10 @@
       #tweets .tweet .tweet-footer p {
         float: left;
         margin: 10px; }
+      #tweets .tweet .tweet-footer .heart {
+        border: none;
+        background-color: inherit;
+        padding: 0px; }
       #tweets .tweet .tweet-footer .icons {
         margin: 6px;
         float: right;
