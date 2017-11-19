@@ -19,7 +19,7 @@
     float: left;
     font-size: 2em;
     line-height: 80px; }
-  #nav-bar .compose {
+  #nav-bar .compose, #nav-bar .login, #nav-bar .register {
     background-color: #E8FDFF;
     color: #00A087;
     float: right;
@@ -29,7 +29,7 @@
     border: 1px solid #C0C0C0;
     border-radius: 5px;
     vertical-align: text-bottom; }
-    #nav-bar .compose:hover {
+    #nav-bar .compose:hover, #nav-bar .login:hover, #nav-bar .register:hover {
       background-color: White;
       cursor: pointer; }
 
@@ -42,7 +42,7 @@
       width: 60px; }
     #nav-bar .header {
       font-size: 1.5em; }
-    #nav-bar .compose {
+    #nav-bar .compose, #nav-bar .login, #nav-bar .register {
       line-height: 40px;
       vertical-align: middle; } }
 

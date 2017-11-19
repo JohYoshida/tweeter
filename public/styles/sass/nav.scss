@@ -26,7 +26,7 @@
     line-height: 80px;
   }
 
-  .compose {
+  .compose, .login, .register {
     background-color: $brand-secondary;
     color: $brand-primary;
     float: right;
@@ -59,7 +59,7 @@
       font-size: 1.5em;
     }
 
-    .compose {
+    .compose, .login, .register {
       line-height: 40px;
       vertical-align: middle;
     }
