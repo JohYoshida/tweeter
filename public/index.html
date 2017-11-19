@@ -14,6 +14,7 @@
     <link rel="stylesheet" href="/styles/sass/nav.css" type="text/css" />
     <link rel="stylesheet" href="/styles/sass/new-tweet.css" type="text/css" />
     <link rel="stylesheet" href="/styles/sass/tweets.css" type="text/css" />
+    <link rel="stylesheet" href="/styles/sass/user-form.css" type="text/css" />
 
     <!-- External JS -->
     <script type="text/javascript" src="/vendor/jquery-2.2.3.min.js"></script>
@@ -23,7 +24,7 @@
     <!-- Character counter script -->
     <script type="text/javascript" src="/scripts/composer-char-counter.js"></script>
     <!-- Compose tweet slider script -->
-    <script type="text/javascript" src="/scripts/slide-composition-box.js"></script>
+    <script type="text/javascript" src="/scripts/slide-button.js"></script>
     <!-- Likes slider script -->
     <script type="text/javascript" src="/scripts/likes-counter.js"></script>
     <!-- Font Awesome -->
@@ -50,6 +51,22 @@
                 <textarea id="tweet-field" name="text" placeholder="What are you humming about?"></textarea>
                 <input id="submit-tweet" type="submit" value="Tweet">
                 <span class="counter">140</span>
+            </form>
+        </section>
+        <section class="user-form login">
+            <h2>Login</h2>
+            <form>
+                <input class="form" type="text" name="username" placeholder="username"></input>
+                <input class="form" type="text" name="password" placeholder="password"></input>
+                <input id="login-button" type="submit">
+            </form>
+        </section>
+        <section class="user-form register">
+            <h2>Register</h2>
+            <form>
+                <input class="form" type="text" name="username" placeholder="username"></input>
+                <input class="form" type="text" name="password" placeholder="password"></input>
+                <input id="register-button" type="submit">
             </form>
         </section>
         <section id="tweets">
